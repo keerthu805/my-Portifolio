@@ -1,0 +1,80 @@
+.project-container {
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.project-card {
+  width: 70%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.project-main-heading {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.project-row {
+  background: #f5f9fd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.project-heading {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.project-subheading {
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.project-list {
+  margin-left: 25px;
+  margin-bottom: 15px;
+  font-family: 20px;
+}
+
+.project-list li {
+  margin-bottom: 5px;
+  font-size: 20px;
+
+}
+
+.project-paragraph {
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.project-video {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.project-btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.project-btn:hover {
+  background-color:darkblue;
+}

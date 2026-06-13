@@ -1,0 +1,65 @@
+.edu-container {
+  min-height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.edu-card {
+  width: 85%;
+  max-width: 950px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.edu-heading {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.edu-row {
+  background-color: #f8fafc;
+  border-left: 5px solid darkblue;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.edu-row h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.edu-row p {
+  color: #333;
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.edu-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.edu-btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color:darkblue;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edu-btn:hover {
+  background-color: darkblue;
+}
+.edu-row p{
+  font-size: 20px;
+}

@@ -1,0 +1,51 @@
+.glimpse-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.glimpse-card {
+  width: 80%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.glimpse-heading {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+
+.glimpse-paragraph {
+  color: #333;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.glimpse-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.glimpse-btn {
+  padding: 12px 30px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.glimpse-btn:hover {
+  background-color: darkblue;
+}

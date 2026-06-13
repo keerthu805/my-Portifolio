@@ -1,0 +1,51 @@
+.contact-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-card {
+  width: 700px;
+  background: rgba(250, 245, 245, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.contact-title {
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.contact-row {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #000;
+}
+
+.contact-thankyou {
+  margin-top: 30px;
+  color: #0f172a;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.contact-btn {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-btn:hover {
+  opacity: 0.9;
+}

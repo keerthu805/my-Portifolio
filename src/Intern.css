@@ -1,0 +1,109 @@
+.intern-container {
+  min-height: 100vh;
+  
+  padding: 30px;
+}
+
+.intern-card {
+  width: 90%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.intern-main-heading {
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 30px;
+}
+
+.intern-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+ 
+}
+
+.intern-content {
+  flex: 2;
+}
+
+.intern-heading {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.intern-list {
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.intern-list li {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.intern-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.intern-image {
+  width:400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.intern-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.intern-btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.intern-btn:hover {
+  background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+  .intern-row {
+    flex-direction: column;
+  }
+
+  .intern-image {
+    width: 100%; 
+    max-width: 350px;
+    
+  }
+}
+.pagraph1{
+   
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.pagraph{
+   padding-bottom: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.pagraph2{
+  font-size: 20px;
+}
