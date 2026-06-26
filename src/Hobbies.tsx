@@ -12,6 +12,9 @@ function Hobbies() {
         }
         else if (type == 2) {
             route('/Contact')
+        }
+      else if (type == 3) {
+            route('/Home')
         }}
   return (
     <div className="hobby-container">
@@ -58,6 +61,7 @@ function Hobbies() {
       </div>
       <div className="hobby-buttons">
           <button className="hobby-btn" onClick={()=>navFun(1)}>Prev</button>
+           <button className="hobby-btn" onClick={()=>navFun(3)}>Home</button>
           <button className="hobby-btn" onClick={()=>navFun(2)}>Next</button>
         </div>
 
