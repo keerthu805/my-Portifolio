@@ -26,6 +26,7 @@ export default function Skill() {
   ];
 
   return (
+    <>
     <div className="skill-container">
       <div className="skill-card">
         <h1 className="skill-heading"><b>SKILLS</b></h1>
@@ -45,6 +46,7 @@ export default function Skill() {
         </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
 

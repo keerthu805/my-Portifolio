@@ -17,11 +17,12 @@ export default  function Project() {
             route('/Home')
         }}
   return (
+    <>
     <div className="project-container">
       <div className="project-card">
         <h1 className="project-main-heading"><b>PROJECTS</b></h1>
 
-        {/* Project 1 */}
+     
         <div className="project-row">
           <h1 className="project-heading">Earthquake Detector</h1>
 
@@ -65,7 +66,7 @@ export default  function Project() {
           </video>
         </div>
 
-        {/* Project 2 */}
+        
         <div className="project-row">
           <h1 className="project-heading">Smart Irrigation System</h1>
 
@@ -103,7 +104,7 @@ export default  function Project() {
           </p>
         </div>
 
-        {/* Project 3 */}
+     
         <div className="project-row">
           <h1 className="project-heading">Event Management System</h1>
 
@@ -152,6 +153,7 @@ export default  function Project() {
         </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
 

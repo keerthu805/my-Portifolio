@@ -17,6 +17,7 @@ function Hobbies() {
             route('/Home')
         }}
   return (
+    <>
     <div className="hobby-container">
       
       {/* First Row */}
@@ -66,7 +67,8 @@ function Hobbies() {
         </div>
 
     </div>
-  );
+    </>
+  )
 }
 
 export default Hobbies;

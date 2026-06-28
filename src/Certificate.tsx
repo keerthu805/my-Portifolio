@@ -24,6 +24,7 @@ export default  function Certificate() {
             route('/Home')
         }}
   return (
+    <>
     <div className="certificate-container">
      
      <h1 className="certificate-heading">CERTIFICATIONS</h1>
@@ -134,6 +135,7 @@ demonstrating rapid prototyping, teamwork, and problem-solving.
           <button className="certificate-btn" onClick={()=>navFun(2)}>Next</button>
         </div>
     </div>
-  );
+    </>
+  )
 }
 

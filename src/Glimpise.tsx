@@ -12,6 +12,7 @@ export default function Glimpise() {
             route('/Education')
         }}
   return (
+    <>
     <div className="glimpse-container">
       <div className="glimpse-card">
         <h1 className="glimpse-heading"><b>GLIMPSE INTO ME</b></h1>
@@ -48,6 +49,7 @@ With a strong foundation in engineering, a passion for technology, and a commitm
         </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
 

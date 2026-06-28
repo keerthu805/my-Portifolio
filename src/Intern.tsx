@@ -16,6 +16,7 @@ export default function Intern() {
             route('/Home')
         }}
   return (
+    <>
     <div className="intern-container">
       <div className="intern-card">
         <h1 className="intern-main-heading"><b>INTERNSHIP</b></h1>
@@ -64,7 +65,7 @@ export default function Intern() {
           </div> */}
         </div>
 
-        {/* Internship 2 */}
+       
         <div className="intern-row">
           <div className="intern-content">
             <h1 className="intern-heading">TANTRANSCO, Manali</h1>
@@ -116,7 +117,8 @@ export default function Intern() {
         </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
 
  

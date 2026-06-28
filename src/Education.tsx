@@ -15,6 +15,7 @@ export default  function Education() {
             route('/Home')
         }}
   return (
+    <>
     <div className="edu-container">
       <div className="edu-card">
         <h1 className="edu-heading"><b>EDUCATIONAL BACKGROUND</b></h1>
@@ -55,6 +56,7 @@ export default  function Education() {
         </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
 

@@ -10,6 +10,7 @@ export default function Contact() {
             route('/Home')
         }}
   return (
+    <>
     <div className="contact-container">
       <div className="contact-card">
         <h1 className="contact-title"><b>CONTACT DETAILS</b></h1>
@@ -40,6 +41,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
 
